@@ -1,0 +1,33 @@
+{
+  "component_names": [
+    "egg",
+    "ham",
+    "hotdog",
+    "porkchop",
+    "rice",
+    "spam",
+    "tapa"
+  ],
+  "input_shape": {
+    "image": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "mask": [
+      1,
+      1,
+      224,
+      224
+    ],
+    "component_type": [
+      1,
+      7
+    ],
+    "manual_features": [
+      1,
+      5
+    ]
+  }
+}

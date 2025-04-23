@@ -1,0 +1,117 @@
+{
+  "nutritional_data": {
+    "tapa": {
+      "calories_per_gram": 2.65,
+      "protein_per_gram": 0.27,
+      "fat_per_gram": 0.17,
+      "carbs_per_gram": 0.04,
+      "description": "Filipino cured beef, typically marinated in soy sauce and garlic"
+    },
+    "hotdog": {
+      "calories_per_gram": 3.05,
+      "protein_per_gram": 0.13,
+      "fat_per_gram": 0.28,
+      "carbs_per_gram": 0.06,
+      "description": "Filipino-style red hotdogs, typically higher in fat than Western varieties"
+    },
+    "ham": {
+      "calories_per_gram": 1.80,
+      "protein_per_gram": 0.20,
+      "fat_per_gram": 0.10,
+      "carbs_per_gram": 0.02,
+      "description": "Typical breakfast ham slices used in Filipino cuisine"
+    },
+    "spam": {
+      "calories_per_gram": 3.20,
+      "protein_per_gram": 0.13,
+      "fat_per_gram": 0.28,
+      "carbs_per_gram": 0.02,
+      "description": "Canned meat product popular in Filipino breakfast dishes"
+    },
+    "porkchop": {
+      "calories_per_gram": 2.50,
+      "protein_per_gram": 0.22,
+      "fat_per_gram": 0.17,
+      "carbs_per_gram": 0.01,
+      "description": "Thin-cut pork chops, typically fried with minimal breading"
+    },
+    "egg": {
+      "calories_per_gram": 1.47,
+      "protein_per_gram": 0.13,
+      "fat_per_gram": 0.11,
+      "carbs_per_gram": 0.01,
+      "description": "Fried egg, typically sunny side up in silog meals"
+    },
+    "rice": {
+      "calories_per_gram": 1.30,
+      "protein_per_gram": 0.03,
+      "fat_per_gram": 0.00,
+      "carbs_per_gram": 0.28,
+      "description": "Steamed white rice, standard component in all silog meals"
+    }
+  },
+  "meal_types": {
+    "tapsilog": {
+      "description": "Tapa, Sinangag (fried rice), and Itlog (egg)",
+      "components": ["tapa", "egg", "rice"]
+    },
+    "hotsilog": {
+      "description": "Hotdog, Sinangag, and Itlog",
+      "components": ["hotdog", "egg", "rice"]
+    },
+    "hamsilog": {
+      "description": "Ham, Sinangag, and Itlog",
+      "components": ["ham", "egg", "rice"]
+    },
+    "spamsilog": {
+      "description": "Spam, Sinangag, and Itlog",
+      "components": ["spam", "egg", "rice"]
+    },
+    "porksilog": {
+      "description": "Porkchop, Sinangag, and Itlog",
+      "components": ["porkchop", "egg", "rice"]
+    }
+  },
+  "average_meal_calories": {
+    "tapsilog": {
+      "average_weight": 250,
+      "average_calories": 547,
+      "protein_grams": 42,
+      "fat_grams": 23,
+      "carbs_grams": 47
+    },
+    "hotsilog": {
+      "average_weight": 260,
+      "average_calories": 590,
+      "protein_grams": 30,
+      "fat_grams": 35,
+      "carbs_grams": 51
+    },
+    "hamsilog": {
+      "average_weight": 255,
+      "average_calories": 486,
+      "protein_grams": 37,
+      "fat_grams": 20,
+      "carbs_grams": 48
+    },
+    "spamsilog": {
+      "average_weight": 235,
+      "average_calories": 558,
+      "protein_grams": 27,
+      "fat_grams": 32,
+      "carbs_grams": 47
+    },
+    "porksilog": {
+      "average_weight": 265,
+      "average_calories": 553,
+      "protein_grams": 39,
+      "fat_grams": 27,
+      "carbs_grams": 50
+    }
+  },
+  "reference_notes": {
+    "data_sources": "Values compiled from Filipino nutritional databases, USDA food composition database, and typical restaurant serving analysis",
+    "preparation_factors": "Nutritional values account for typical Filipino cooking methods including frying with vegetable oil",
+    "variations": "Actual values may vary based on specific preparation methods, cooking oils used, and regional variations"
+  }
+}
